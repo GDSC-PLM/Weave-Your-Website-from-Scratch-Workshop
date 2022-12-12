@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body > header,
+#Hero {
+  background-color: #42a5f5;
+}
+
+body > header {
+  padding: 50.88px 144px;
+  display: flex;
+  gap: 95px;
+}
+
+body > header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 95px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+.flex-container {
+  display: flex;
+  gap: 15px;
+}
+
+main #Hero p,
+time {
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 81px;
+  margin: 10.5px 0;
+}
+
+time + p {
+  margin-top: 10.5px;
+}
+
+main #Hero > div {
+  width: 658px;
+  margin-right: -200px;
+}
+
+main #Hero button {
+  background-color: #000000;
+  font-size: 36px;
+  border-radius: 10.5px;
+  padding: 10px 20px;
+  font-weight: 700;
+  margin-top: 44.5px;
+}
+
+main #Hero {
+  padding: 86px 0px 0px 144px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#Tickle-Me h2,
+#Tickle-Me p {
+  color: #000000;
+}
+
+#Tickle-Me {
+  padding: 152px 144px 215.21px 144px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+#Tickle-Me p {
+  margin-top: 10.5px;
+  font-size: 18px;
+}
+
+.grid-container {
+  margin-top: 58px;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  column-gap: 70px;
+  align-items: end;
+}
+
+.grid-container div {
+  text-align: center;
+}
+
+.grid-container button {
+  border-radius: 10.5px;
+  border: 3.14922px solid #000000;
+  padding: 10.5px 21px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.grid-container div:nth-of-type(1) button {
+  background-color: #6e6e6e;
+}
+
+.grid-container div:nth-of-type(2) button {
+  background-color: #ffbc11;
+}
+
+.grid-container div:nth-of-type(3) button {
+  background-color: #42a5f5;
+}
+
+.grid-container div:nth-of-type(4) button {
+  background-color: #45b14f;
+}
+
+.grid-container div:nth-of-type(5) button {
+  background-color: #ef4438;
+}
+
+footer {
+  background-color: #000000;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  gap: 40px;
+}
+
+.logo-container {
+  display: flex;
+  gap: 20px;
+}
+
+.vertical {
+  border-left: 3px solid #ffffff;
+  height: 44px;
+}
+
+.tickle {
+  animation: tickle 0.15s ease-in-out;
+}
+
+@keyframes tickle {
+  /* Rotate left and right and back */
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  75% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

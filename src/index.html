@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+
+    <!-- <script src="script.js" defer></script> -->
+    <title>Back to Basics: WeaVe your website from scratch</title>
+  </head>
+
+  <body>
+    <!-- Nav bar component -->
+    <header>
+      <img src="assets/svg/logos/logo_gdsc.svg" alt="" id="logo" />
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#Tickle-Me">Tickle Me!</a></li>
+          <li><a href="#Partners">Partners</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!--Landing component -->
+      <section id="Hero">
+        <!-- Landing text -->
+        <div>
+          <!-- Back to Basics icon and text -->
+          <div class="flex-container">
+            <img src="assets/svg/icon_code.svg" alt="" id="dev-logo" />
+            <p>Back to Basics</p>
+          </div>
+          <h1>WeaVe your website from scratch</h1>
+          <time datetime="2022-12-12 14:00">December 12, 2022</time>
+          <p>(2:00 - 5:00 PM)</p>
+          <!-- Register button -->
+          <button class="register">Register</button>
+        </div>
+        <!-- Web Dev Picture -->
+        <img src="assets/png/pic_webdev.png" alt="Web dev picture" />
+      </section>
+
+      <!-- Tickle Me component -->
+      <section id="Tickle-Me">
+        <!-- Tickle Me title and text -->
+        <header>
+          <h2>Tickle Me!</h2>
+          <p>Click each characters to hear them tweet</p>
+        </header>
+        <!-- Haribot characters -->
+        <div class="grid-container">
+          <!-- Haribot frame -->
+          <div id="Haribot">
+            <img src="assets/svg/haribots/haribot.svg" alt="Haribot" />
+            <button>Haribot</button>
+          </div>
+          <!-- Honey Droid frame -->
+          <div id="HoneyDroid">
+            <img src="assets/svg/haribots/honeydroid.svg" alt="Honey Droid" />
+            <button>HoneyDroid</button>
+          </div>
+          <!-- Popstron frame -->
+          <div id="Popstron">
+            <img src="assets/svg/haribots/popstron.svg" alt="Popstron" />
+            <button>Popstron</button>
+          </div>
+          <!-- Baby Buster frame -->
+          <div id="BabyBuster">
+            <img src="assets/svg/haribots/babybuster.svg" alt="Baby Buster" />
+            <button>BabyBuster</button>
+          </div>
+          <!-- Siborg frame -->
+          <div id="Siborg">
+            <img src="assets/svg/haribots/siborg.svg" alt="Siborg" />
+            <button>Siborg</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer component -->
+    <footer id="Partners">
+      <p>Major Partners</p>
+      <!-- Major Partners logo -->
+      <div class="logo-container">
+        <img
+          src="assets/svg/logos/logo_plm_css.svg"
+          alt="PLM Computer Science Society logo"
+          class="major-logo"
+        />
+        <img
+          src="assets/svg/logos/logo_icpep.svg"
+          alt="Institute of Computer Engineers of the Philippines logo"
+          class="major-logo"
+        />
+      </div>
+      <!-- Divider -->
+      <div class="vertical"></div>
+      <p>Minor Partner</p>
+      <img
+        src="assets/svg/logos/logo_plm_site.svg"
+        alt="PLM Society of Information Technology Enthusiasts logo"
+        id="minor-logo"
+      />
+    </footer>
+  </body>
+</html>
